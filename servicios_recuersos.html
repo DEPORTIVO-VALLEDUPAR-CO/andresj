@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios y Recursos - Kinder Garden Smile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+            color: #363636;
+        }
+        .navbar {
+            background-color: #5284af;
+        }
+        .navbar-brand {
+            color: hsl(258, 83%, 24%) !important;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            color: hsl(241, 57%, 35%) !important;
+        }
+        .navbar-nav .nav-link.active {
+            font-weight: bold;
+        }
+        .main-title {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 2.5rem;
+            color: #343a40;
+        }
+        .section-header {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 2rem;
+            color: #6c757d;
+            font-weight: 700;
+        }
+        .section-content {
+            margin-top: 1.5rem;
+        }
+        .rounded-img {
+            border-radius: 0.5rem;
+        }
+        .accordion-button {
+            background-color: #5284af;
+            color: white;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #416d8a;
+            color: white;
+        }
+        .accordion-body {
+            text-align: justify;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+        }
+        .footer-logo {
+            width: 120px;
+        }
+        .social-buttons {
+            position: fixed;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+        .social-button {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: white;
+        }
+        .btn-facebook { background-color: #3b5998; }
+        .btn-twitter { background-color: #1da1f2; }
+        .btn-instagram { background-color: #e1306c; }
+        .btn-linkedin { background-color: #0077b5; }
+    </style>
+</head>
+<body>
+    <!-- Navegación principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Infantil Kinder Garden Smile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="servicios_recuersos.html">Servicios y Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comunidad.html">Comunidad y Eventos</a>
+                        </li>
+                    
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <h1 class="main-title">Servicios y Recursos</h1>
+
+        <div class="section-content">
+            <h2 class="section-header">Horarios</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Actividad</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apertura</td>
+                        <td>06:45 a.m</td>
+                    </tr>
+                    <tr>
+                        <td>Cierre</td>
+                        <td>12:30 p.m</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section-content">
+            <h2 class="section-header">Organigrama</h2>
+            <div class="d-flex justify-content-center flex-wrap mb-4">
+                <img src="img/org.png" alt="Organigrama" class="img-fluid rounded-img">
+            </div>
+        </div>
+
+        <div class="section-content">
+            <h2 class="section-header">Uniformes</h2>
+            <div class="d-flex justify-content-center flex-wrap mb-4">
+                <div class="me-3">
+                    <img src="img/nio.PNG" alt="Uniforme Niño" class="img-fluid rounded-img" style="max-width: 200px;">
+                </div>
+                <div class="me-3">
+                    <img src="img/ninaa.png" alt="Uniforme Niña" class="img-fluid rounded-img" style="max-width: 200px;">
+                </div>
+                <div>
+                    <img src="img/nino.PNG" alt="Uniforme Niño" class="img-fluid rounded-img" style="max-width: 200px;">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-content">
+            <h2 class="section-header">Manual de Convivencia</h2>
+            <p>Descarga nuestro <a href="/img/pdf/Manual de convivenciakgs.docx" class="btn btn-primary" download>Manual de Convivencia</a></p>
+        </div>
+
+        <div class="section-content">
+            <h2 class="section-header">Recursos Disponibles</h2>
+            <div class="accordion" id="accordionResources">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingServices">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseServices" aria-expanded="true" aria-controls="collapseServices">
+                            Componente Administrativo
+                        </button>
+                    </h2>
+                    <div id="collapseServices" class="accordion-collapse collapse show" aria-labelledby="headingServices" data-bs-parent="#accordionResources">
+                        <div class="accordion-body">
+                            <h3>Objetivos de la institución</h3>
+                            <p>Considerando las directrices establecidas a través de la ley 115 de 1994, en sus artículos 15 y 16, los cuales están relacionados con la educación preescolar y los objetivos que esta busca en el ejercicio de poder brindar un desarrollo integral, el Jardín Infantil Kinder Garden Smile buscará en todo momento:</p>
+                            <h4>Objetivo general</h4>
+                            <p>Promover el desarrollo integral de los niños y niñas en aspectos biológicos, cognoscitivos, sicomotrices, socio-afectivos y espirituales, a través de experiencias de socialización pedagógicas y recreativas.</p>
+                            <h4>Objetivos específicos</h4>
+                            <ol>
+                                <li>Promover en los niñas y niños el conocimiento de su propio cuerpo y de sus posibilidades de acción, así como la adquisición de su identidad y autonomía.</li>
+                                <li>Fomentar el desarrollo de la creatividad, las habilidades y destrezas propias de la edad, como también de su capacidad de aprendizaje.</li>
+                                <li>Desarrollar la ubicación espacio-temporal y el ejercicio de la memoria.</li>
+                                <li>Favorecer el desarrollo de la capacidad para adquirir formas de expresión, relación y comunicación, y para establecer relaciones de reciprocidad y participación, de acuerdo con normas de respeto, solidaridad y convivencia.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingHumanResources">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHumanResources" aria-expanded="false" aria-controls="collapseHumanResources">
+                            Recursos Humanos
+                        </button>
+                    </h2>
+                    <div id="collapseHumanResources" class="accordion-collapse collapse" aria-labelledby="headingHumanResources" data-bs-parent="#accordionResources">
+                        <div class="accordion-body">
+                            <p>El Jardín Infantil Kinder Garden Smile fomenta acciones en pro de mejorar la calidad de vida de su talento humano. En este sentido, generará condiciones que permitan el crecimiento personal y profesional; a través de una política salarial justa y capacitaciones que fortalezcan sus capacidades, habilidades y competencias. Todo esto alineado con la misión y visión institucional, para brindar un servicio eficiente, productivo, competitivo y de calidad.</p>
+                            <p>Dentro de esta institución se consideran los siguientes integrantes del recurso humano: directora, coordinador, secretaria, docentes y personal de servicios generales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSalaryPolicy">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSalaryPolicy" aria-expanded="false" aria-controls="collapseSalaryPolicy">
+                            Política Salarial
+                        </button>
+                    </h2>
+                    <div id="collapseSalaryPolicy" class="accordion-collapse collapse" aria-labelledby="headingSalaryPolicy" data-bs-parent="#accordionResources">
+                        <div class="accordion-body">
+                            <p>Al considerar el ámbito funcional en el que se desarrolla la actividad del jardín, para otorgar los salarios a los trabajadores se tendrá como referencia el salario promedio en el sector y en la industria para cada uno de los cargos mencionados en el Anexo 2: “Manual de procedimientos y selección de personal”, teniendo en cuenta el presupuesto con el que cuenta el Jardín Infantil Kinder Garden Smile.</p>
+                            <p>A continuación, se presenta una tabla base (general) para el salario neto en cada uno de los perfiles establecidos (lo que recibirá cada persona mensualmente), sin considerar temas de liquidación y demás, esto se hace bajo la base gravable del año 2022:</p>
+                            <!-- Aquí puedes agregar la tabla de salarios si la tienes -->
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingInventories">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInventories" aria-expanded="false" aria-controls="collapseInventories">
+                            Inventarios de Salones y Aulas
+                        </button>
+                    </h2>
+                    <div id="collapseInventories" class="accordion-collapse collapse" aria-labelledby="headingInventories" data-bs-parent="#accordionResources">
+                        <div class="accordion-body">
+                            <div class="image-container">
+                                <img src="img/tabla1.PNG" alt="Tabla 1" class="img-fluid">
+                                <img src="img/tabla2.PNG" alt="Tabla 2" class="img-fluid">
+                                <img src="img/tabla3.PNG" alt="Tabla 3" class="img-fluid">
+                                <img src="img/tabla4.PNG" alt="Tabla 4" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo en la esquina inferior derecha -->
+        <div class="position-fixed bottom-0 end-0 p-3">
+            <img src="img/logo.png" alt="Logo del Colegio" class="footer-logo rounded-circle">
+        </div>
+    </div>
+
+    <!-- Botones de Redes Sociales -->
+    <div class="social-buttons">
+        <a href="https://www.facebook.com/people/Colegio-Kinder-Garden-Smile/100093117982986/" class="social-button btn-facebook" target="_blank">ᶠᵃᶜᵉᵇᵒᵒᵏ
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://twitter.com" class="social-button btn-twitter" target="_blank">ᵗʷⁱᵗᵗᵉʳ
+            <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/kinder_gardensmile/?igsh=YzljYTk1ODg3Zg%3D%3D" class="social-button btn-instagram" target="_blank">ⁱⁿˢᵗᵃᵍʳᵃᵐ
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" class="social-button btn-linkedin" target="_blank">ˡⁱⁿᵏᵉᵈⁱⁿ
+            <i class="bi bi-linkedin"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.js"></script>
+</body>
+</html>

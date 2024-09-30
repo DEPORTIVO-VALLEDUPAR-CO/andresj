@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinder Garden Smile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+   
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+            color: #363636;
+        }
+        .navbar {
+            background-color: #5284af; 
+        }
+        .navbar-brand {
+            color: hsl(258, 83%, 24%)!important; 
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            color: hsl(241, 57%, 35%) !important; 
+        }
+        .navbar-nav .nav-link.active {
+            font-weight: bold;
+        }
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .main-title {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 2.5rem;
+            color: #343a40;
+        }
+        .section-header {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 2rem;
+            color: #6c757d;
+            font-weight: 700; /* Negrita para los encabezados */
+        }
+        .section-content {
+            margin-top: 1.5rem;
+        }
+        .text-al-lado {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 2rem;
+        }
+        .text-al-lado img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 0.5rem;
+        }
+        .text-al-lado .contenido {
+            flex: 1;
+        }
+        .rounded-img {
+            border-radius: 0.5rem;
+        }
+        .footer-logo {
+            width: 120px;
+        }
+        .video-container {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .bandera-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 2rem;
+        }
+        .bandera-img {
+            width: 30%;
+            border-radius: 0.5rem;
+        }
+        .bandera-text {
+            max-width: 50%;
+        }
+
+        
+        .carousel {
+            max-width: 20%; 
+            margin-top: 0 auto;
+        }
+        .carousel-item img {
+            width: 50%; 
+            height: auto; 
+        }
+        .social-media {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .social-media a {
+            color: #a80d0d;
+            font-size: 2rem;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            color: #101011;
+        }
+        .social-buttons {
+            position: fixed;
+            top: 50%;
+            left: 20px; /* Ajusta la distancia del borde izquierdo */
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+        .social-button {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: white; /* Cambia el color del ícono según el fondo */
+
+        }
+        .btn-facebook { background-color: #3b5998; }
+        .btn-twitter { background-color: #1da1f2; }
+        .btn-instagram { background-color: #e1306c; }
+        .btn-linkedin { background-color: #0077b5; }
+
+        .contact-section {
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegación principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Infantil Kinder Garden Smile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios_recuersos.html">Servicios y Recursos</a>
+                    </li>
+
+                     <li class="nav-item">
+                     <a class="nav-link" href="comunidad.html">Comunidad y Eventos</a>
+                     </li>
+
+                    
+                   
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <img src="img/hero.png" alt="Imagen principal" class="hero-image rounded">
+        <h1 class="main-title">Bienvenidos al Jardín Infantil Kinder Garden Smile</h1><br>
+        <p class="text-center">El Jardín Infantil Kinder Garden Smile busca niños sociables, que tengan respeto con el otro y consigo mismos.</p><br><br><br>
+
+        <!-- Imagen y texto al lado -->
+        <div class="text-al-lado">
+            <img src="img/about.png" alt="Sobre nosotros" class="rounded-img">
+            <div class="contenido">
+                <h2 class="section-header">Historia del Colegio</h2><br>
+                <p>
+                    En el año 2022, nace la idea de elaborar un proyecto institucional dedicado a la educación de los niños y niñas menores de 6 años, para cubrir un anhelo personal como madre, y al mismo tiempo, dedicarme al cuidado de estos pequeños a través de esta vocación y bonita labor. En sus inicios, se hizo necesario aprender, conocer e investigar de esta grandiosa labor en atención a los niñas y niños de kínder, todo esto, con el fin de consolidar un establecimiento de educación prescolar basado en el espíritu de atención educativa de excelencia y servicio de calidad, con la colaboración y confianza mutua de todos sus integrantes. Destacando principalmente los valores de afecto, respeto, disciplina, alegría, compromiso y esfuerzo. Es así como en el año 2022 este proyecto empieza a materializarse con el fin de dotar un sitio acorde a los requisitos que exige el Ministerio de Educación y poner en marcha cada uno de los objetivos propuestos enfocados a la educación de niños y niñas. Hoy día, es un proyecto consolidado comprometido con la excelencia educativa, compromiso con los educandos, sus familias y la comunidad educativa en general. Sabemos que cada año es un nuevo desafío por eso en el 2023 abrimos las puertas del jardín “KINDER GARDEN SMILE” para recibir con amor a las nuevas generaciones de niños y niñas.
+                </p>
+            </div>
+        </div>
+
+        <div class="row section-content">
+            <div class="col">
+                <h1 class="section-header">Misión</h1><br><br><br>
+                <p class="text-center">Guiar a los niños y niñas a través de una educación integral; basada en el amor, la tolerancia, la participación y el respeto hacia los demás.</p>
+            </div>
+            <div class="col">
+                <h1 class="section-header">Visión</h1><br><br><br>
+                <p class="text-center">En el año 2028, el Jardín Infantil Kinder Garden Smile de Valledupar será un jardín en el que se brindará educación de calidad, con exigencia a nivel cultural y social de la primera infancia, que favorezca el aprendizaje y el desarrollo de niños y niñas.</p>
+            </div>
+        </div>
+
+        
+        <h1 class="section-header">Nuestra Bandera</h1><br><br>
+        <div class="bandera-section">
+            <img src="img/bandera.png" alt="Bandera" class="bandera-img rounded-img">
+            <div class="bandera-text">
+                <p> Amarillo: Potencia la creatividad y la agilidad mental, da alegría, 
+                    felicidad y el optimismo.</p>
+                <p>Morado: Proyecta empatía, afecto y creatividad</p>
+            </div>
+        </div>
+       <!-- Sección de Testimonios -->
+       <div class="container testimonials my-5">
+        <h2 class="section-header text-center">Testimonios de padres</h2>
+        <div class="row">
+            <!-- Testimonio 1 -->
+            <div class="col-md-4">
+                <div class="card text-center p-4 border rounded shadow-sm">
+                    <img src="img/main1.jpg" alt="Cliente 1" class="card-img-top rounded-circle mb-3" width="210" height="210">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Pérez</h5>
+                        <p class="card-text text-muted">"El Jardín Infantil Kinder Garden Smile ha superado nuestras expectativas. ¡Recomendado al 100%!"</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonio 2 -->
+            <div class="col-md-4">
+                <div class="card text-center p-4 border rounded shadow-sm">
+                    <img src="img/main2.jpg" alt="Cliente 2" class="card-img-top rounded-circle mb-3" width="210" height="210">
+                    <div class="card-body">
+                        <h5 class="card-title">María Gómez</h5>
+                        <p class="card-text text-muted">"Un lugar maravilloso para que los niños aprendan y se diviertan. ¡No podríamos estar más felices!"</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonio 3 -->
+            <div class="col-md-4">
+                <div class="card text-center p-4 border rounded shadow-sm">
+                    <img src="img/main3.jpg" alt="Cliente 3" class="card-img-top rounded-circle mb-3" width="210" height="210">
+                    <div class="card-body">
+                        <h5 class="card-title">Laura Martínez</h5>
+                        <p class="card-text text-muted">"Un entorno seguro y educativo para mis hijos. ¡Un excelente lugar!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Sección de Redes Sociales -->
+<div class="social-buttons">
+    <a href="https://www.facebook.com/people/Colegio-Kinder-Garden-Smile/100093117982986/" class="social-button btn-facebook" target="_blank">ᶠᵃᶜᵉᵇᵒᵒᵏ
+        <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://twitter.com" class="social-button btn-twitter" target="_blank">ᵗʷⁱᵗᵗᵉʳ
+        <i class="bi bi-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com/kinder_gardensmile/?igsh=YzljYTk1ODg3Zg%3D%3D" class="social-button btn-instagram" target="_blank">ⁱⁿˢᵗᵃᵍʳᵃᵐ
+        <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://linkedin.com" class="social-button btn-linkedin" target="_blank">ˡⁱⁿᵏᵉᵈⁱⁿ
+        <i class="bi bi-linkedin"></i>
+    </a>
+</div>
+
+
+        <!-- Logo en la esquina inferior derecha -->
+        <div class="position-fixed bottom-0 end-0 p-3">
+            <img src="img/logo.png" alt="Logo del Colegio" class="footer-logo rounded-circle">
+        </div>
+    </div>
+    <div class="container contact-section">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Información de contacto</h4>
+                <p><strong>Teléfono:</strong>300 274 3722 </p>
+                <p><strong>Email:</strong>Kindergardensmile35@gmail.com</p>
+                <p><strong>Ubicacion:</strong>Valledupar, Cesar</p>
+                <p><strong>Dirección:</strong> Manzana E casa 9 urb Luis Carlos
+                    Galán
+                    </p>
+            </div>
+            <div class="col-md-6">
+                <h4>Envíanos un mensaje</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.js"></script>
+</body>
+</html>
